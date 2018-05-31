@@ -165,6 +165,9 @@ const options = {
   },
   watchOptions: {
     ignored: '*.map'
+  },
+  socket: {
+    domain: 'localhost:8080'
   }
 }
 
