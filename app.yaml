@@ -1,6 +1,6 @@
 runtime: nodejs
 api_version: 1
-threadsafe: true
+env: flex
 
 handlers:
 - url: /
