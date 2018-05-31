@@ -1,5 +1,5 @@
 /*
- * Work 
+ * Work
  */
 
 .featured-work-container {
@@ -24,7 +24,7 @@
     flex: 1 1 100%;
 
     @include min($tablet) {
-      flex: 0 0 50%;      
+      flex: 0 0 50%;
     }
   }
 }
@@ -67,7 +67,7 @@
   transition: color 300ms ease;
 
   @include min($tablet) {
-    font-size: 2.4rem;      
+    font-size: 2.4rem;
   }
 }
 
