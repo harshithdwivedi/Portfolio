@@ -1,6 +1,6 @@
 {
   "scripts": {
-    "start": "gulp build && http-server -p 8080 -g"
+    "start": "gulp build && http-server dist/ -p 8080 -g"
   },
   "name": "",
   "version": "1.0.0",
