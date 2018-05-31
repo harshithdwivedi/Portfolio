@@ -17,3 +17,4 @@ node_modules
 .lock-wscript
 # Garbage files
 .DS_Store
+dist/
