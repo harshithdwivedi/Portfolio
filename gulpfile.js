@@ -156,6 +156,7 @@ const sendMaps = (req, res, next) => {
 
 const options = {
   notify: false,
+  port: 8080,
   server: {
     baseDir: 'dist',
     middleware: [
