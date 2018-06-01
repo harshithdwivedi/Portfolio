@@ -14,7 +14,7 @@
   background-size: cover;
   background-repeat: no-repeat;
   width: 100%;
-  margin-bottom: 3em;
+  margin-bottom: 1em;
 
   @include min($tablet) {
     min-height: 340px;
@@ -26,7 +26,7 @@
 }
 
 .hero-header {
-  margin: auto 5% auto 0;
+  margin: auto 5% 2% 0;
   max-width: 640px;
 }
 
@@ -50,11 +50,11 @@
 }
 
 .project-intro {
-  padding: 3em 0 2em;
+  padding: 2em 0 2em;
   background: $white;
 
   @include min($tablet) {
-    padding: 7em 0 4em;
+    padding: 2em 0 2em;
   }
 }
 
@@ -82,6 +82,10 @@
   }
 }
 
+.iframe-center{
+  margin: 4rem auto auto auto;
+}
+
 .lede-list {
   margin: 0;
   padding: 15px 20px;
@@ -103,4 +107,16 @@
   line-height: 1.6;
 }
 
+.lede-new-para{
+  padding: 1rem auto 1rem auto;
+  line-height: 1.7;
+  font-size: 1.8rem;
 
+  @include min($tablet) {
+    font-size: 2.2rem;
+  }
+
+  a {
+    color: $primary-text;
+  }
+}
