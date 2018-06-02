@@ -1,20 +1,30 @@
 <!DOCTYPE html>
 
 <html lang="en-US">
-  <head>
-    <title>Harshit Dwivedi | Developer and aspiring Entrepreneur</title>
-    @include("includes/_head.html")
-  </head>
-  <body class="main">
+<head>
+  <title>Harshit Dwivedi</title>
+  @include("includes/_head.html")
+  <!-- Global site tag (gtag.js) - Google Analytics -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=UA-86455727-3"></script>
+  <script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+  
+  gtag('config', 'UA-86455727-3');
+</script>
 
-    @include("includes/_navigation.html")
+</head>
+<body class="main">
 
-    @include("includes/_homepage-hero.html")
+  @include("includes/_navigation.html")
 
-    @include("includes/_work-list.html")
+  @include("includes/_homepage-hero.html")
 
-    @include("includes/_footer.html")
+  @include("includes/_work-list.html")
 
-    @include("includes/_scripts.html")
-  </body>
+  @include("includes/_footer.html")
+
+  @include("includes/_scripts.html")
+</body>
 </html>

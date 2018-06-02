@@ -17,7 +17,7 @@
   margin-bottom: 1em;
 
   @include min($tablet) {
-    min-height: 340px;
+    min-height: 200px;
   }
 
   @include min($xxlarge) {
@@ -50,11 +50,11 @@
 }
 
 .project-intro {
-  padding: 2em 0 2em;
+  padding: 0 0 2em;
   background: $white;
 
   @include min($tablet) {
-    padding: 2em 0 2em;
+    padding: 0 0 2em;
   }
 }
 
@@ -119,4 +119,8 @@
   a {
     color: $primary-text;
   }
+}
+
+.center{
+  margin: auto;
 }
