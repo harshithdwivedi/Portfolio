@@ -1,34 +1,41 @@
 <!DOCTYPE html>
 
 <html lang="en-US">
-  <head>
-    <title>MIT | Entrepreneurship Bootcamp</title>
-    @include("includes/_head.html")
-  </head>
-  <body class="main">
+<head>
+  <title>MIT | Entrepreneurship Bootcamp</title>
+  @include("includes/_head.html")
+  <script async src="https://www.googletagmanager.com/gtag/js?id=UA-86455727-3"></script>
+  <script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+  gtag('config', 'UA-86455727-3');
+  </script>
+</head>
+<body class="main">
 
-    @include("includes/_navigation.html")
+  @include("includes/_navigation.html")
 
-    <section>
-      <div class="container">
-        <div class="project-hero" style="">
-          <header class="hero-header">
-            <h1 class="project-label">Massachusetts Institute of Technology</h1>
-            <h2 class="project-title">Entrepreneurship Bootcamp : From Idea to Startup in Eight Weeks</h2>
-          </header>
-        </div>
-        <div>
-          <img src="images/mit/mit-steps.png">
-        </div>
+  <section>
+    <div class="container">
+      <div class="project-hero" style="">
+        <header class="hero-header">
+          <h1 class="project-label">Massachusetts Institute of Technology</h1>
+          <h2 class="project-title">Entrepreneurship Bootcamp : From Idea to Startup in Eight Weeks</h2>
+        </header>
       </div>
-      <div class="project-intro">
-        <div class="container">
-          <div class="lede-content">
-            <p class="project-label">
-              Course Goals
-            </p>
-            <p class="lede">
-              At MIT Bootcamp, I worked with a team of 6 people on a solution that aimed at connecting Angel Investors and fundable Startups in Emerging Markets. The team consited of people from San Francisco, New York, Malaysia, Singapore & Dubai and some of my roles were :</p>
+      <div>
+        <img src="images/mit/mit-steps.png">
+      </div>
+    </div>
+    <div class="project-intro">
+      <div class="container">
+        <div class="lede-content">
+          <p class="project-label">
+            Course Goals
+          </p>
+          <p class="lede">
+            At MIT Bootcamp, I worked with a team of 6 people on a solution that aimed at connecting Angel Investors and fundable Startups in Emerging Markets. The team consited of people from San Francisco, New York, Malaysia, Singapore & Dubai and some of my roles were :</p>
             <ul class="lede-list">
               <li class="lede-list__item">
                 Project definition and definition of communication process and project platform.
@@ -60,7 +67,7 @@
               The bootcamp was a success and we were among the top teams to pitch the solution and receive a passing certificate from MIT.
               <p class="step-body">You can read up on my experiences with the bootcamp down below :</p>
               <blockquote class="embedly-card"><h4><a href="https://medium.com/@daggerdwivedi/my-experiences-with-the-mit-entrepreneurship-bootcamp-d8838e4f2a27?source=user_profile---------2-------------------">My Experiences with the MIT Entrepreneurship Bootcamp</a></h4><p>Almost everyone has a new year's resolution and so did I.My new year resolution, while not exactly formed on the eve of New Year, was to become a better salesperson and get to know the business part of things that I do (which is software development).</p></blockquote>
-<script async src="//cdn.embedly.com/widgets/platform.js" charset="UTF-8"></script>
+              <script async src="//cdn.embedly.com/widgets/platform.js" charset="UTF-8"></script>
             </p>
           </div>
         </div>
@@ -80,4 +87,4 @@
 
     @include("includes/_scripts.html")
   </body>
-</html>
+  </html>
