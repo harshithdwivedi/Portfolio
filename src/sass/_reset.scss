@@ -1,8 +1,29 @@
-html, body, div,
-header, footer, main, section, nav,
-h1, h2, h3, h4, h5, h6, img, svg,
-p, a, hr, span, ol, ul, li,
-form, input, label {
+html,
+body,
+div,
+header,
+footer,
+main,
+section,
+nav,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+img,
+svg,
+p,
+a,
+hr,
+span,
+ol,
+ul,
+li,
+form,
+input,
+label {
   margin: 0;
   padding: 0;
   border: none;
@@ -19,10 +40,6 @@ form, input, label {
 
 img {
   max-width: 100%;
-}
-
-.img-hero {
-  width: 6em;
 }
 
 svg:not(:root) {
