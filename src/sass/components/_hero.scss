@@ -62,8 +62,10 @@
   }
 
   svg {
+    margin-top: 2em;
+    margin-right: -2em;
     height: auto;
-    width: 200px;
+    width: 185px;
     transition: all 200ms ease-in-out;
 
     &:hover {
@@ -82,7 +84,7 @@
 
   @include min($tablet) {
     margin-top: 0;
-    margin-left: 1rem;
+    margin-left: 0.5rem;
   }
 }
 

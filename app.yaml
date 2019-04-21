@@ -1,2 +1,2 @@
-runtime: nodejs
+runtime: standard
 api_version: 1

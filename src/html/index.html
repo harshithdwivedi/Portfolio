@@ -1,33 +1,32 @@
 <!DOCTYPE html>
 
 <html lang="en-US">
-<head>
-  <title>Harshit Dwivedi</title>
-  @include("includes/_head.html")
-  <!-- Global site tag (gtag.js) - Google Analytics -->
-  <script async src="https://www.googletagmanager.com/gtag/js?id=UA-86455727-3"></script>
-  <script>
-  window.dataLayer = window.dataLayer || [];
-  function gtag(){dataLayer.push(arguments);}
-  gtag('js', new Date());
-  gtag('config', 'UA-86455727-3');
-</script>
-<meta property="og:url" content="https://harshit.app"/>
-<meta property="og:title" content="Harshit Dwivedi"/>
-<meta property="og:image" content="https://i.imgur.com/9nCJs2P.png"/>
-<meta property="og:description" content="42" />
-<meta property="og:type" content="website"/>
-</head>
-<body class="main">
-
-  @include("includes/_navigation.html")
-
-  @include("includes/_homepage-hero.html")
-
-  @include("includes/_work-list.html")
-
-  @include("includes/_footer.html")
-
-  @include("includes/_scripts.html")
-</body>
+  <head>
+    <title>Harshit Dwivedi</title>
+    @include("includes/_head.html")
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script
+      async
+      src="https://www.googletagmanager.com/gtag/js?id=UA-86455727-3"
+    ></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag() {
+        dataLayer.push(arguments);
+      }
+      gtag("js", new Date());
+      gtag("config", "UA-86455727-3");
+    </script>
+    <meta property="og:url" content="https://harshit.app" />
+    <meta property="og:title" content="Harshit Dwivedi" />
+    <meta property="og:image" content="https://i.imgur.com/9nCJs2P.png" />
+    <meta property="og:description" content="42" />
+    <meta property="og:type" content="website" />
+  </head>
+  <body class="main">
+    @include("includes/_navigation.html")
+    @include("includes/_homepage-hero.html")
+    @include("includes/_work-list.html") @include("includes/_footer.html")
+    @include("includes/_scripts.html")
+  </body>
 </html>
