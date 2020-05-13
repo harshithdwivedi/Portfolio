@@ -34,5 +34,6 @@
     "rollup-plugin-node-resolve": "^2.0.0",
     "rollup-plugin-uglify": "^1.0.1",
     "rucksack-css": "^0.9.1"
-  }
+  },
+  "devDependencies": {}
 }
